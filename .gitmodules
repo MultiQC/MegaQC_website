@@ -1,0 +1,9 @@
+[submodule "includes/MegaQC"]
+	path = includes/MegaQC
+	url = https://github.com/ewels/MegaQC.git
+[submodule "includes/libraries/parsedown"]
+	path = includes/libraries/parsedown
+	url = https://github.com/erusev/parsedown.git
+[submodule "includes/libraries/parsedown-extra"]
+	path = includes/libraries/parsedown-extra
+	url = https://github.com/erusev/parsedown-extra.git

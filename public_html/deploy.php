@@ -13,6 +13,8 @@ if ( $_POST['payload'] ) {
 
   // Pull the new version of the repo, overwriting local changes (eg. rebasing)
   shell_exec("cd /home/megaqc/MegaQC_website && git fetch && git reset --hard origin/master");
+  // Pull the new version of the MegaQC repo
+  shell_exec("cd /home/megaqc/MegaQC_website/includes/MegaQC && git fetch && git reset --hard origin/master");
   die("done " . mktime());
 }
 ?>

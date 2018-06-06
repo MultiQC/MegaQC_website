@@ -1,1 +1,15 @@
 .DS_Store
+
+config.ini
+
+access-logs
+docs
+etc
+html
+httpdocs
+logs
+mail
+public_ftp
+ssl
+tmp
+www
