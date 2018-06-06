@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MegaQC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html"><img src="images/MegaQC_logo_darkbg.svg" title="MegaQC"></a></h1>
+								<p>Collect and visualise data from multiple MultiQC reports</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									<li><a href="#" title="Read the MegaQC documentation">Docs</a></li>
+									<li><a href="http://multiqc.info/" target="_blank" title="Find out more about MultiQC, which MegaQC relies upon">MultiQC</a></li>
+									<li><a href="https://gitter.im/ewels/MegaQC" target="_blank" title="Get help by chatting with the developers">Gitter</a></li>
+									<li><a href="https://github.com/ewels/MegaQC" target="_blank" title="View the code on GitHub">GitHub</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Intro -->
+				<div id="intro-wrapper" class="wrapper style1">
+					<div class="title">Introduction</div>
+					<section id="intro" class="container">
+						<p class="style1">
+              If you're running <a href="http://multiqc.info/" target="_blank">MultiQC</a>
+              all the time, then make use of that data!
+            </p>
+						<p class="style2">
+							MegaQC stores MultiQC results<br class="mobile-hide" />
+							in a database for long term analysis
+						</p>
+						<p class="style3">
+              An <strong>open-source</strong> web tool, scalable to <strong>hundreds of thousands of samples</strong>.<br class="mobile-hide" />
+						  Monitor <strong>key metrics</strong> with trend plots, <strong>explore your data</strong> like never before.
+            </p>
+					</section>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">Features</div>
+					<div id="main" class="container">
+
+						<!-- Features -->
+							<section id="features">
+								<header class="style1">
+									<h2>MegaQC works the way you do</h2>
+									<p>Quickly answer questions and monitor long term trends</p>
+								</header>
+								<div class="feature-list">
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-line-chart">Explore your data</h3>
+												<p>Interactive plots allow you to reproduce graphs from MultiQC, but with dynamic sample filtering across multiple projects.</p>
+                        <blockquote>How does read-1 sequence quality compare between the NovaSeq and the HiSeq 3000?</blockquote>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+                        <h3 class="icon fa-area-chart">Plot metrics</h3>
+												<p>Distribution and comparison plots allow you to study single-value metrics at scale.</p>
+                        <blockquote>Is there a sub-group of samples with low Ts/Tv variant rates?</blockquote>
+                        <blockquote>Does sample GC content correlate with alignment rate?</blockquote>
+											</section>
+										</div>
+									</div>
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+                        <h3 class="icon fa-tachometer">Monitor trends</h3>
+												<p>Trend plots allow you to track metrics over time and spot outliers or long-term trends.</p>
+                        <blockquote>Has the read coverage of the capture regions changed over the past six months?</blockquote>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-television">Build dashboards</h3>
+												<p>A drag-and-drop interface allows you to quickly and easily build dashboards showing your favourite plots.</p>
+                        <blockquote>Computer: Status update please.</blockquote>
+											</section>
+										</div>
+									</div>
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-server">Easy to install</h3>
+												<p>Built using the Python Flask framework with support for any SQL database backend.</p>
+                        <blockquote>Quick testing on my laptop with flask and SQLite</blockquote>
+                        <blockquote>Production installation using Docker image with Gunicorn and PostgreSQL</blockquote>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-users">Multiple users</h3>
+												<p>User accounts let people create their own favourite plots and dashboards.</p>
+                        <blockquote>Jack runs the sequencers and keeps an eye on the yield</blockquote>
+                        <blockquote>Jill preps RNA libraries and monitors rRNA content</blockquote>
+											</section>
+										</div>
+									</div>
+								</div>
+								<ul class="actions actions-centered">
+									<li><a href="#" class="button style1 big">Live Demo</a></li>
+									<li><a href="#" class="button style2 big">Get The Code</a></li>
+								</ul>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Highlights -->
+				<div class="wrapper style3">
+					<div class="title">Getting Started</div>
+					<div id="highlights" class="container">
+            <header class="style1">
+              <h2>Are you familiar with MultiQC?</h2>
+              <p>
+                MegaQC relies on MultiQC; it's little brother.<br class="mobile-hide" />
+                If you're not sure what that is, then check out
+                <a href="http://multiqc.info/">http://multiqc.info</a> first&hellip;
+              </p>
+            </header>
+						<div class="row 150%">
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="#">Overview of features</a></h3>
+									<p>
+                    A quick tour of what MegaQC can do: see the highlights and get the postcard!
+                    <br><em>[34s]</em>
+                  </p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<h3><a href="#">Basic usage</a></h3>
+									<p>
+                    Screencast of logging in for the first time, uploading data and creating some plots
+                    <br><em>[4m 24s]</em>
+                  </p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Installation instructions</a></h3>
+									<p>
+                    An overview of how to install MegaQC - from personal laptop to production server.
+                    <br><em>[6m 49s]</em>
+                  </p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper" class="wrapper">
+					<div class="title">Try before you buy</div>
+					<div id="footer" class="container">
+						<header class="style1">
+							<h2>Still not sure?</h2>
+							<p>
+								Investing time into a new tool is a bit of a commitment, so to be sure <br class="mobile-hide" />
+                that MegaQC does what you want you can check out some further resources:
+							</p>
+              <ul class="actions">
+                <li><a href="#" class="button style2">Read the docs</a></li>
+                <li><a href="#" class="button style1">Try a live demo</a></li>
+                <li><a href="https://github.com/ewels/MegaQC" target="_blank" class="button style2">See the code</a></li>
+              </ul>
+						</header>
+
+						<hr />
+					</div>
+					<div id="copyright">
+						<ul>
+							<li>&copy; <a href="http://phil.ewels.co.uk" target="_blank">Phil Ewels</a></li><li>Web page template: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
