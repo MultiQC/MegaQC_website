@@ -5,4 +5,4 @@
 This repository contains files for the MegaQC website: http://megaqc.info
 
 For information about the package, please see the
-[main repository](https://github.com/ewels/MegaQC).
+[main repository](https://github.com/MultiQC/MegaQC).
